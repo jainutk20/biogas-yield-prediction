@@ -1,0 +1,19 @@
+name: tensoflowanfis-env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  # - pip   # not needed currently
+  - tensorflow=2.6
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - seaborn
+# For installing this environment:
+# conda env create -f environment.yml
+
+# For updating this environment:
+# conda env update --file environment.yml --prune

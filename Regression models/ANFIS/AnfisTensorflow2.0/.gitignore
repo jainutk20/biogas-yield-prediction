@@ -1,0 +1,13 @@
+# .gitignore
+__pycache__
+venv
+env
+.pytest_cache
+.coverage
+logs/run_anfis
+.spyproject
+
+
+# personal vscode settings
+.vscode
+settings.json
